@@ -8,6 +8,23 @@ export default function Footer() {
     <footer>
       <div className="container">
         <Image src={Brand} width={100} height={60} alt="Brand" />
+        <div className="footer-menu">
+          <div>
+            <h3>Blogs</h3>
+            <ul>
+              <li>Main Blog</li>
+              <li>Downloads</li>
+              <li>Medium</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Shop</h3>
+            <ul>
+              <li>Tech Store</li>
+              <li>Amazon Storefront</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   )
