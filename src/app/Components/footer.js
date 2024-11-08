@@ -24,6 +24,14 @@ export default function Footer() {
               <li>Amazon Storefront</li>
             </ul>
           </div>
+          <div>
+            <h3>Social</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>X</li>
+              <li>LinkedIn</li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

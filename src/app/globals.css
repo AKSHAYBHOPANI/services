@@ -6,6 +6,8 @@
   --button-color: #f7da73;
   --button-hover-color: #daac05;
   --section-color: rgb(245, 245, 247);
+  --colour-2: rgb(150 227 217);
+  --colour-3: rgb(217 137 191);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -66,7 +68,11 @@ button:hover {
 .section {
   background-color: var(--section-color);
   width: 100vw;
-  height: 650px;
+  height: 780px;
+}
+
+.section:nth-child(4) {
+  background-color: var(--colour-3);
 }
 
 .container {
@@ -98,6 +104,41 @@ button:hover {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.section svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  /* height: 150px; */
+}
+
+section:nth-child(1) {
+  background-color: (var(--section-color));
+}
+
+.section:nth-child(1) .shape-fill {
+  fill: var(--section-color);
+}
+
+.section:nth-child(2) {
+  background-color: var(--main-color);
+}
+
+.section:nth-child(2) .shape-fill {
+  fill: var(--main-color);
+}
+
+.section:nth-child(3) {
+  background-color: var(--colour-2);
+}
+
+.section:nth-child(3) .shape-fill {
+  fill: var(--colour-2);
+}
+
+.section:nth-child(4) .shape-fill {
+  fill: var(--colour-3);
 }
 
 @media (prefers-color-scheme: dark) {
